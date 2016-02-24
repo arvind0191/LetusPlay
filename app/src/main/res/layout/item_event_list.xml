@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:padding="20dp"
+    android:layout_margin="20dp"
+    android:background="@android:color/holo_blue_dark"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:padding="5dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:id="@+id/iv_eventpic"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iv_eventpic"
+        android:padding="5dp"
+        android:text="Helloname"
+        android:id="@+id/tv_eventname"/>
+
+</RelativeLayout>
